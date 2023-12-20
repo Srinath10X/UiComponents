@@ -8,19 +8,19 @@ Welcome to the documentation for the UiComponents project. Here, you'll find det
 
 - **Description:** A simple and intuitive component for toggling between two states.
 - **Usage:** Learn more about integrating the ToggleSwitch in your project.
-- **Link:** [ToggleSwitch Documentation](components/toggleswitch.md)
+- **Link:** [ToggleSwitch Documentation](components/ToggleSwitch.md)
 
 ### Pricing Card
 
 - **Description:** A sleek component for showcasing pricing plans.
 - **Usage:** Explore customization options and implementation details.
-- **Link:** [Pricing Card Documentation](components/pricingcard.md)
+- **Link:** [Pricing Card Documentation](components/PricingCard.md)
 
 ### Product Card
 
 - **Description:** An eye-catching component for displaying product details.
 - **Usage:** Dive into customization options and usage guidelines.
-- **Link:** [Product Card Documentation](components/productcard.md)
+- **Link:** [Product Card Documentation](components/ProductCard.md)
 
 ## Getting Started
 
