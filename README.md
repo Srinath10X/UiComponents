@@ -14,8 +14,8 @@ Welcome to UiComponents, your repository for enhancing web applications with a s
 Our UI components include, but are not limited to:
 
 - **ToggleSwitch:** 🔀A snazzy cjmponent for effortless toggling between two states in your web applications and usage details in the [documentation](docs/components/ToggleSwitch.md) here for docs.
-- **PricingCard:** 💲 A sleek component for showcasing pricing plans in your web applications. Explore customization options and usage details in the [documentation](docs/PricingCard.md).
-- **Product Card:** 🛍️ An eye-catching component for displaying product details in your web applications. Dive into customization options and usage guidelines in the [documentation](docs/ProductCard.md).
+- **PricingCard:** 💲 A sleek component for showcasing pricing plans in your web applications. Explore customization options and usage details in the [documentation](docs/components/PricingCard.md).
+- **Product Card:** 🛍️ An eye-catching component for displaying product details in your web applications. Dive into customization options and usage guidelines in the [documentation](docs/components/ProductCard.md).
 
 ## Getting Started
 
