@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, hsl(195 95% 71%), hsl(208 95% 45%));
+}
+
+.container {
+  height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.card {
+	padding: 2.5rem;
+  height: 300px;
+  width: 500px;
+  background: hsl(0 0% 100% / 25%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid hsl(0 0% 100% / 18%);
+}
+
+h1{
+	color: hsl(0 0% 100%);
+}
