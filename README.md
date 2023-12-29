@@ -16,6 +16,10 @@ Our UI components include, but are not limited to:
 - **ToggleSwitch:** 🔀A snazzy cjmponent for effortless toggling between two states in your web applications and usage details in the [documentation](docs/components/ToggleSwitch.md) here for docs.
 - **PricingCard:** 💲 A sleek component for showcasing pricing plans in your web applications. Explore customization options and usage details in the [documentation](docs/components/PricingCard.md).
 - **Product Card:** 🛍️ An eye-catching component for displaying product details in your web applications. Dive into customization options and usage guidelines in the [documentation](docs/components/ProductCard.md).
+- **Glassmorphism Card** 🌐 Elevate your UI with the Glassmorphism Card, featuring a sleek frosted glass design for a modern and sophisticated look.
+- **Animated Card** ✨ Bring your UI to life with the Animated Card, adding dynamic and captivating animations for an engaging user experience.
+- **Searchbar** 🔍 Enhance user interaction with the Searchbar, a clean and intuitive component designed for seamless search functionality.
+- **Outline Button** 🖱️ Make a stylish statement with the Outline Button, a minimalist choice that balances simplicity and elegance in your web applications.
 
 ## Getting Started
 
