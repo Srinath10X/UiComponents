@@ -1,0 +1,65 @@
+:root {
+  --light-theme: #fff;
+  --dark-theme: #23242a;
+  --grey-theme: #818589;
+  --line-color: #d2d2d2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--light-theme);
+}
+
+.card {
+  position: relative;
+  height: 25rem;
+  width: 20rem;
+  padding: 2rem;
+  background: var(--light-theme);
+  border-radius: 0.7rem;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  color: var(--dark-theme);
+}
+
+.line {
+  height: 2px;
+  border: none;
+  margin: 1rem 0;
+  background-color: var(--line-color);
+}
+
+.card p.description {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.benifits {
+  font-size: 0.8rem;
+}
+
+.benifits .tick {
+  color: dodgerblue;
+}
+
+.btn {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  height: 2.5rem;
+  width: 16rem;
+  border: none;
+  color: var(--light-theme);
+  background-color: dodgerblue;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
