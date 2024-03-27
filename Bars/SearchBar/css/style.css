@@ -9,7 +9,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background: #0e1229;
+  /* background: #0e1229; */
+  background: dodgerblue;
 }
 
 .container {
