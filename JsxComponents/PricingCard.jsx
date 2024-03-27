@@ -1,4 +1,5 @@
 import React from "react";
+import "./PricingCard.css";
 
 const PricingCard = () => {
   return (
