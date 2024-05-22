@@ -1,0 +1,30 @@
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+#drag {
+	height: 150px;
+	width: 300px;
+	position: absolute;
+	background-color: #1e1e1e;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	border: 1px solid #fff;
+	border-radius: 0.25rem;
+	user-select: none;
+
+
+	&:active {
+		cursor: grabbing;
+	}
+}
