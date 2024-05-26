@@ -1,0 +1,58 @@
+:root {
+  --border-color: #555;
+  --background: #000;
+  --base: #1e1e1e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[outer] {
+  --upper-gradient: rgb(255, 255, 255, 0.15);
+  --lower-gradient: rgb(0, 0, 0, 0.1);
+  display: inline-block;
+  height: 50vh;
+  width: 50%;
+  background-image: linear-gradient(
+    -45deg,
+    var(--lower-gradient),
+    var(--upper-gradient)
+  );
+  border: 1px solid var(--border-color);
+  border-radius: 0.2rem;
+  position: relative;
+
+  &::before,
+  &::after {
+    --var-num: 3;
+    position: absolute;
+    content: "+";
+    color: white;
+    font-size: calc(1rem * var(--var-num));
+    font-weight: lighter;
+  }
+
+  &::before {
+    top: calc(-0.72rem * var(--var-num));
+    left: calc(-0.29rem * var(--var-num));
+  }
+
+  &::after {
+    bottom: calc(-0.65rem * var(--var-num));
+    right: calc(-0.3rem * var(--var-num));
+  }
+}
